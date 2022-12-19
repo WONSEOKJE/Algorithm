@@ -11,13 +11,13 @@ public class lecture4 {
         for (int i = 0; i < N; i++) {
             str[i] = sc.next();
         }
-        for (String s : solution(N, str)) {
+        for (String s : solution(str)) {
             System.out.println(s);
         }
 
     }
 
-    public static ArrayList<String> solution (int n, String[] str) {
+    public static ArrayList<String> solution (String[] str) {
         ArrayList<String> answer = new ArrayList<>();
         for (String s : str) {
             String temp = new StringBuilder(s).reverse().toString();
