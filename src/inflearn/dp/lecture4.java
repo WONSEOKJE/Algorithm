@@ -41,7 +41,7 @@ public class lecture4 {
             dy[i] += max;
             answer = Math.max(dy[i],answer);
         }
-
+        
         return answer;
     }
 }
